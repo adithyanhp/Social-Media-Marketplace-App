@@ -29,7 +29,6 @@ A secure marketplace platform where users can list, buy, and sell social-media a
 
 ## 🏗️ Project Structure
 
-'''
 Social-Media-Marketplace-App/
 ├── README.md
 ├── client/
@@ -69,7 +68,7 @@ Social-Media-Marketplace-App/
 │   │       └── MyOrders.jsx
 │   └── vite.config.js
 └── package-lock.json
-'''
+
 
 ## 📦 Installation & Setup
 
