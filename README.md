@@ -42,30 +42,30 @@ Social-Media-Marketplace-App/
 │   ├── public/
 │   │   └── favicon.ico
 │   ├── src/
-│   │   ├── App.jsx
+│   │   ├── App.jsx/
 │   │   ├── assets/
-│   │   │   ├── assets.jsx
-│   │   │   ├── favicon.ico
-│   │   │   ├── image_1.jpg
-│   │   │   ├── image_2.jpg
-│   │   │   ├── image_3.jpg
-│   │   │   ├── image_4.jpg
-│   │   │   ├── logo.svg
-│   │   │   └── user_profile.png
+│   │   │   ├── assets.jsx/
+│   │   │   ├── favicon.ico/
+│   │   │   ├── image_1.jpg/
+│   │   │   ├── image_2.jpg/
+│   │   │   ├── image_3.jpg/
+│   │   │   ├── image_4.jpg/
+│   │   │   ├── logo.svg/
+│   │   │   └── user_profile.png/
 │   │   ├── components/
-│   │   │   ├── Hero.jsx
-│   │   │   └── Navbar.jsx
+│   │   │   ├── Hero.jsx/
+│   │   │   └── Navbar.jsx/
 │   │   ├── index.css
 │   │   ├── main.jsx
 │   │   └── pages/
-│   │       ├── Home.jsx
-│   │       ├── ListingDetails.jsx
-│   │       ├── Loading.jsx
-│   │       ├── ManageListing.jsx
-│   │       ├── Marketplace.jsx
-│   │       ├── Messages.jsx
-│   │       ├── MyListings.jsx
-│   │       └── MyOrders.jsx
+│   │       ├── Home.jsx/
+│   │       ├── ListingDetails.jsx/
+│   │       ├── Loading.jsx/
+│   │       ├── ManageListing.jsx/
+│   │       ├── Marketplace.jsx/
+│   │       ├── Messages.jsx/
+│   │       ├── MyListings.jsx/
+│   │       └── MyOrders.jsx/
 │   └── vite.config.js
 └── package-lock.json
 
