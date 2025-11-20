@@ -29,3 +29,56 @@ A secure marketplace platform where users can list, buy, and sell social-media a
 
 ## 🏗️ Project Structure
 
+Social-Media-Marketplace-App/
+├── README.md
+├── client/
+│   ├── .env
+│   ├── .gitignore
+│   ├── README.md
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── public/
+│   │   └── favicon.ico
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── assets/
+│   │   │   ├── assets.jsx
+│   │   │   ├── favicon.ico
+│   │   │   ├── image_1.jpg
+│   │   │   ├── image_2.jpg
+│   │   │   ├── image_3.jpg
+│   │   │   ├── image_4.jpg
+│   │   │   ├── logo.svg
+│   │   │   └── user_profile.png
+│   │   ├── components/
+│   │   │   ├── Hero.jsx
+│   │   │   └── Navbar.jsx
+│   │   ├── index.css
+│   │   ├── main.jsx
+│   │   └── pages/
+│   │       ├── Home.jsx
+│   │       ├── ListingDetails.jsx
+│   │       ├── Loading.jsx
+│   │       ├── ManageListing.jsx
+│   │       ├── Marketplace.jsx
+│   │       ├── Messages.jsx
+│   │       ├── MyListings.jsx
+│   │       └── MyOrders.jsx
+│   └── vite.config.js
+└── package-lock.json
+
+
+## 📦 Installation & Setup
+
+Since this is currently a front-end-only project:
+
+1. Download or clone the repository
+
+  git clone https://github.com/adithyanhp/Social-Media-Marketplace-App.git
+
+2. Open the project folder
+
+3. Open index.html in your browser
+   (No server required currently)
