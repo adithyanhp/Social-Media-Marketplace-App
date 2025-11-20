@@ -79,7 +79,7 @@ Since this is currently a front-end-only project:
 
 1. Download or clone the repository
 
-  git clone https://github.com/adithyanhp/Social-Media-Marketplace-App.git
+     git clone https://github.com/adithyanhp/Social-Media-Marketplace-App.git
 
 2. Open the project folder
 
