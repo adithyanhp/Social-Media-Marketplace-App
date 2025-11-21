@@ -1,7 +1,7 @@
 import React from 'react'
 import { assets } from '../assets/assets'
 import { Link, useNavigate } from 'react-router-dom'
-import { MenuIcon, XIcon } from 'lucide-react'
+import { BoxIcon, GripIcon, ListIcon, MenuIcon, MessageCircleCodeIcon, MessageCircleMoreIcon, XIcon } from 'lucide-react'
 import { useClerk, useUser, UserButton }  from '@clerk/clerk-react'
 
 function Navbar() {
@@ -32,7 +32,20 @@ function Navbar() {
                         <MenuIcon onClick={() => setMenuOpen(true)} className='sm:hidden'/>
                     </div>
                     ) : (
-                      <UserButton />
+                      <UserButton>
+                        <UserButton.MenuItems>
+                          <UserButton.Action label='Marketplace' labelIcon={<GripIcon size={16}/>} onClick={() => navigate('/marketplace')}/>
+                        </UserButton.MenuItems>
+                        <UserButton.MenuItems>
+                          <UserButton.Action label='Messages' labelIcon={<MessageCircleMoreIcon size={16}/>} onClick={() => navigate('/messages')}/>
+                        </UserButton.MenuItems>
+                        <UserButton.MenuItems>
+                          <UserButton.Action label='My Listings' labelIcon={<ListIcon size={16}/>} onClick={() => navigate('/my-listings')}/>
+                        </UserButton.MenuItems>
+                        <UserButton.MenuItems>
+                          <UserButton.Action label='My Orders' labelIcon={<BoxIcon size={16}/>} onClick={() => navigate('/my-orders')}/>
+                        </UserButton.MenuItems>
+                      </UserButton>
                     ) }
 
                     
