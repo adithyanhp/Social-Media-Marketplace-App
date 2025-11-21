@@ -29,7 +29,6 @@ A secure marketplace platform where users can list, buy, and sell social-media a
 
 ## 🏗️ Project Structure
 
-```
 Social-Media-Marketplace-App/
 ├── README.md
 ├── client/
@@ -44,6 +43,10 @@ Social-Media-Marketplace-App/
 │   │   └── favicon.ico
 │   ├── src/
 │   │   ├── App.jsx
+│   │   ├── app/
+│   │   │   ├── features/
+│   │   │   │   └── listingSlice.js
+│   │   │   └── store.js
 │   │   ├── assets/
 │   │   │   ├── assets.jsx
 │   │   │   ├── favicon.ico
@@ -55,7 +58,10 @@ Social-Media-Marketplace-App/
 │   │   │   └── user_profile.png
 │   │   ├── components/
 │   │   │   ├── Hero.jsx
-│   │   │   └── Navbar.jsx
+│   │   │   ├── LatestListings.jsx
+│   │   │   ├── ListingCard.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   └── Title.jsx
 │   │   ├── index.css
 │   │   ├── main.jsx
 │   │   └── pages/
@@ -69,9 +75,7 @@ Social-Media-Marketplace-App/
 │   │       └── MyOrders.jsx
 │   └── vite.config.js
 └── package-lock.json
-```
 
----
 
 ## 📦 Installation & Setup
 
