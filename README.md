@@ -62,6 +62,7 @@ Social-Media-Marketplace-App/
 │   │   │   ├── LatestListings.jsx
 │   │   │   ├── ListingCard.jsx
 │   │   │   ├── Navbar.jsx
+|   |   |   ├── Plans.jsx
 │   │   │   └── Title.jsx
 │   │   ├── index.css
 │   │   ├── main.jsx
