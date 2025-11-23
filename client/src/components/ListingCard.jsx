@@ -1,10 +1,12 @@
 import React from 'react'
 import { platformIcons } from '../assets/assets';
 import { BadgeCheck, LineChart, MapPin, User } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const ListingCard = ({listing}) => {
 
     const currency = import.meta.env.VITE_CURRENCY || '$';
+    const navigate = useNavigate()
 
   return (
     <div className='relative bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition'>
@@ -65,7 +67,7 @@ const ListingCard = ({listing}) => {
               {listing.price.toLocaleString()}
             </span>
           </div>
-          <button className='px-7 py-3 bg-indigo-600 text-white text-sm rounded-lg hover:bg-indigo-700 transition'>
+          <button onClick={() => {navigate('/listing/${listing.id}'); scrollTo(0,0)}} className='px-7 py-3 bg-indigo-600 text-white text-sm rounded-lg hover:bg-indigo-700 transition'>
             More Details
           </button>
         </div>
