@@ -1,4 +1,4 @@
-# Social Media Marketplace App
+# Social Media Marketplace App ( flipearn. )
 
 A secure marketplace platform where users can list, buy, and sell social-media accounts from major platforms like Instagram, X (Twitter), Telegram, and YouTube.
 
