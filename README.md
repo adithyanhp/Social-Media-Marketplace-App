@@ -58,6 +58,8 @@ Social-Media-Marketplace-App/
 │   │   │   ├── logo.svg
 │   │   │   └── user_profile.png
 │   │   ├── components/
+│   │   │   ├── CTA.jsx
+│   │   │   ├── Footer.jsx
 │   │   │   ├── Hero.jsx
 │   │   │   ├── LatestListings.jsx
 │   │   │   ├── ListingCard.jsx
