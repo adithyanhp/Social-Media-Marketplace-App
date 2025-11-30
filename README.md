@@ -33,7 +33,6 @@ A secure marketplace platform where users can list, buy, and sell social-media a
 Social-Media-Marketplace-App/
 ├── README.md
 ├── client/
-│   ├── .env
 │   ├── .gitignore
 │   ├── README.md
 │   ├── eslint.config.js
